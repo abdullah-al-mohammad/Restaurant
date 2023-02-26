@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <!-- owlcarousel -->
+    <link rel="stylesheet" href="./assits/owlcarousel/assets/owl.carousel.min.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="logo" href="./assits/images/restaurant-logo.png">
+    <!-- animation wow -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- bootstarp link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- css link -->
+    <link rel="stylesheet" href="./assits/css/style.css">
+</head>
+<body>
+  <header>
+      <nav class="navbar navbar-expand-lg px-5 pb-5 position-absolte w-100 linear-color bg-transparent bg-opacity-10 z-2 animate__animated animate__fadeIn">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <h1 class="text-orange fw-bold">
+              <i class="fa-solid fa-utensils"></i>
+              Restaurant
+            </h1>
+          </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
+              <ul class="navbar-nav text-uppercase">
+                <li class="nav-item fw-bold fw-bold">
+                  <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="service.html">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="menu.html">menu</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    pages
+                  </a>
+                  <ul class="dropdown-menu text-capitalize fw-bold">
+                    <li><a class="dropdown-item" href="booking.html">booking</a></li>
+                    <li><a class="dropdown-item" href="team.html">our team</a></li>
+                    <li><a class="dropdown-item" href="testimonial.html">testimonial</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-bold" href="contact.html">contact</a>
+                </li>
+                <li class="nav-item ps-2">
+                  <a class="nav-link btn btn-orange rounded-0 text-uppercase text-white" href="#">book a table</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </header>
+  <main class="animate__animated animate__fadeIn position-relative">
+        <!-- Hero Section -->
+    <section class="py-5 mb-5" id="hero">
+        <div class="container py-5">
+          <div class="row align-items-center">
+            <div class="col-lg-6 text-center text-lg-start text-white">
+                <h1 class="display-3 fw-bold animate__animated animate__slideInLeft fw-bold">Enjoy Our <br> Delicious Meal</h1>
+                <p class="mb-4 pb-2 animate__animated animate__slideInLeft">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                <a class="btn btn-orange rounded-0 text-uppercase text-white py-sm-3 px-sm-5 animate__animated animate__slideInLeft" href="">book a table</a>
+            </div>
+            <div class="col-lg-6 text-center text-lg-end overflow-hidden hero-img animate__animated animate__fadeIn">
+              <img class="img-fluid" src="./assits/Images/hero.png" alt="">
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Restaurant Services -->
+    <section class="container pt-5" id="restaurantServices">
+      <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 row-cols-lg-5">
+        <div class="card-body col p-5 me-4 shadow-sm animate__animated animate__slideInUp">
+          <i class="fa-solid fa-user-tie text-orange fa-4x pb-4"></i>
+          <h5 class="card-title animate__animated animate__slideInUp fw-bold">Master Chefs</h5>
+          <p class="card-text animate__animated animate__slideInUp">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+        </div>
+        <div class="card-body col p-5 me-4 shadow-sm animate__animated animate__slideInUp">
+            <i class="fa-solid fa-utensils text-orange fa-4x pb-4"></i>
+          <h5 class="card-title animate__animated animate__slideInUp fw-bold">Quality Food</h5>
+          <p class="card-text animate__animated animate__slideInUp">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+        </div>
+        <div class="card-body col p-5 me-4 shadow-sm animate__animated animate__slideInUp">
+            <i class="fa-solid fa-cart-plus text-orange fa-4x pb-4"></i>
+          <h5 class="card-title animate__animated animate__slideInUp fw-bold">Online Order</h5>
+          <p class="card-text animate__animated animate__slideInUp">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+        </div>
+        <div class="card-body col p-5 me-4 shadow-sm animate__animated animate__slideInUp">
+            <i class="fa-solid fa-headset text-orange fa-4x pb-4"></i>
+          <h5 class="card-title animate__animated animate__slideInUp fw-bold">24/7 Service</h5>
+          <p class="card-text animate__animated animate__slideInUp">Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+        </div>
+      </div>
+    </section>
+      <!-- about us -->
+    <section class="container">
+      <div class="row row-cols-1 row-cols-lg-2 g-5 align-items-center pt-5 mt-5">
+        <div class="">
+          <div class="row g-3 row-cols-2">
+            <div class="col mt-1 text-start animate__animated animate__zoomIn">
+              <img class="image-fluid w-100 rounded-1 pt-3" src="assits/images/about-1.jpg" alt="">
+            </div>
+            <div class="col text-start pt-5 mt-5 animate__animated animate__zoomIn">
+              <img class="image-fluid w-75 rounded-1" src="assits/images/about-2.jpg" alt="">
+            </div>
+            <div class="col text-end animate__animated animate__zoomIn">
+              <img class="image-fluid w-75 rounded-1" src="assits/images/about-3.jpg" alt="">
+            </div>
+            <div class="coltext-start animate__animated animate__zoomIn">
+              <img class="image-fluid w-100 rounded-1" src="assits/images/about-4.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class=" order-first order-md-0  animate__animated animate__fadeInDown">
+          <h4 class="psudo-after mb-0 fw-normal g-font text-orange">about us</h4>
+          <h1 class="nunito-font fw-bold">Welcome to <i class="fa-solid fa-utensils text-orange"></i> Restaurant</h1>
+          <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
+          <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+          <div class="row">
+            <div class="col">
+              <div class="d-flex align-items-center border-start border-5 border-orange">
+              <h1 class="text-orange ps-3 display-5 fw-bold"><span class="counter">15</span></h1>
+                <div class="ps-3">
+                  <p class="mb-0">Years of</p>
+                  <h6 class="fw-bold">EXPERIENCE</h6>
+                </div>
+              </div>
+              </div>
+            <div class="col">
+              <div class="">
+                <div class="d-flex align-items-center border-start border-orange border-5">
+                <h1 class="ps-3 text-orange fw-bold display-5 counter">50</h1>
+                  <div class="ps-3">
+                    <p class="mb-0">Popular</p>
+                    <h6 class="fw-bold">MASTER CHEFS</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="mt-5 btn btn-orange rounded-0 text-uppercase text-white py-sm-3 px-sm-5">read more</button>
+        </div>
+      </div>
+    </section>
+      <!-- food menu -->
+    <section class="container">
+      <div class="text-center py-5 my-5 foodItem">
+        <h4 class="g-font text-orange psudo-after psudo-before">Food Menu</h4>
+        <h1 class="mb-5 nunito-font fw-bold">Most Popular Items</h1>
+        <ul class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-6 align-items-center justify-content-center">
+          <li class="col px-0 Item">
+            <a class="d-flex align-items-center border-bottom pb-2" href="">
+              <i class="fa-solid fa-mug-saucer text-orange fs-1 pe-3"></i>
+              <div>
+                <p class="mb-0">Popular</p>
+                <h6 class="fw-bold">Breakfast</h6>
+              </div>
+            </a>
+          </li>
+          <li class="col px-0">
+            <a class="d-flex align-items-center border-bottom pb-2" href="">
+              <i class="fa-solid fa-burger text-orange fs-1 pe-3"></i>
+              <div>
+                <p class="mb-0">Special</p>
+                <h6 class="fw-bold">Launch</h6>
+              </div>
+            </a>
+          </li>
+          <li class="col px-0 a-color">
+            <a class="d-flex align-items-center border-bottom pb-2 border-width" href="">
+              <i class="fa-solid fa-utensils text-orange fs-1 pe-3"></i>
+              <div>
+                <p class="mb-0">Lovely</p>
+                <h6 class="fw-bold">Dinner</h6>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="row row-cols-1 row-cols-md-2 g-3 g-md-5 pt-5 mx-auto text-center">
+          <div class="col">
+            <div class="d-flex align-items-center">
+              <img src="assits/images/menu-1.jpg" alt="">
+              <div class="ps-4 w-100">
+                <h5 class="d-flex justify-content-between border-bottom pb-3 nunito-font fw-bold">
+                  <span>Chicken Burger</span>
+                  <span class="text-orange">$115</span>
+                </h5>
+                <p class="text-start fst-italic">Ipsum ipsum clita erat amet dolor justo diam</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex align-items-center">
+              <img src="assits/images/menu-2.jpg" alt="">
+              <div class="ps-4 w-100">
+                <h5 class="d-flex justify-content-between border-bottom pb-3 w-100 nunito-font fw-bold">
+                  <span>Chicken Burger</span>
+                  <span class="text-orange">$115</span>
+                </h5>
+                <p class="text-start fst-italic">Ipsum ipsum clita erat amet dolor justo diam</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex align-items-center">
+              <img src="assits/images/menu-3.jpg" alt="">
+              <div class="ps-4 w-100">
+                <h5 class="d-flex justify-content-between border-bottom pb-3 nunito-font fw-bold">
+                  <span>Chicken Burger</span>
+                  <span class="text-orange">$115</span>
+                </h5>
+                <p class="text-start fst-italic">Ipsum ipsum clita erat amet dolor justo diam</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex align-items-center">
+              <img src="assits/images/menu-4.jpg" alt="">
+              <div class="ps-4 w-100">
+                <h5 class="d-flex justify-content-between border-bottom pb-3 nunito-font fw-bold">
+                  <span>Chicken Burger</span>
+                  <span class="text-orange">$115</span>
+                </h5>
+                <p class="text-start fst-italic">Ipsum ipsum clita erat amet dolor justo diam</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex align-items-center">
+              <img src="assits/images/menu-5.jpg" alt="">
+              <div class="ps-4 w-100">
+                <h5 class="d-flex justify-content-between border-bottom pb-3 nunito-font fw-bold">
+                  <span>Chicken Burger</span>
+                  <span class="text-orange">$115</span>
+                </h5>
+                <p class="text-start fst-italic">Ipsum ipsum clita erat amet dolor justo diam</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex align-items-center">
+              <img src="assits/images/menu-6.jpg" alt="">
+              <div class="ps-4 w-100">
+                <h5 class="d-flex justify-content-between border-bottom pb-3 nunito-font fw-bold">
+                  <span>Chicken Burger</span>
+                  <span class="text-orange">$115</span>
+                </h5>
+                <p class="text-start fst-italic">Ipsum ipsum clita erat amet dolor justo diam</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex align-items-center">
+              <img src="assits/images/menu-7.jpg" alt="">
+              <div class="ps-4 w-100">
+                <h5 class="d-flex justify-content-between border-bottom pb-3 nunito-font fw-bold">
+                  <span>Chicken Burger</span>
+                  <span class="text-orange">$115</span>
+                </h5>
+                <p class="text-start fst-italic">Ipsum ipsum clita erat amet dolor justo diam</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="d-flex align-items-center">
+              <img src="assits/images/menu-8.jpg" alt="">
+              <div class="ps-4 w-100">
+                <h5 class="d-flex justify-content-between border-bottom pb-3 nunito-font fw-bold">
+                  <span>Chicken Burger</span>
+                  <span class="text-orange">$115</span>
+                </h5>
+                <p class="text-start fst-italic">Ipsum ipsum clita erat amet dolor justo diam</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Reservation -->
+    <section class="container-fluid g-0">
+      <div class="row g-0" id="BookReserv">
+        <div class="col-md-6">
+          <div id="vBtn">
+            <a href="">
+              <i class="fa-sharp fa-2x fa-solid fa-play absolute-center"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col reservation">
+          <div class="p-5">
+          <h4 class="psudo-after text-orange g-font mb-0">Reservation</h4>
+          <h1 class="mb-3 text-white nunito-font fw-bold">Book A Table Online</h1>
+          <form>
+            <div class="row row-cols-2">
+              <div class="form-floating col">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Your Name">
+                <label for="floatingPassword">Your Name</label>
+              </div>
+              <div class="form-floating mb-3 col">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+              </div>
+              <div class="col">
+                <input class="p-3 border border-secondary-subtle rounded-1 w-100" type="datetime-local" id="meeting-time"
+                   name="meeting-time" value="2018-06-12T19:30">
+              </div>
+              <div class="form-floating col">
+                <select class="form-select w-100" id="floatingSelect" aria-label="Floating label select example">
+                  <option selected>Open this select menu</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <label class="" for="floatingSelect">Works with selects</label>
+              </div>
+              <div class="form-floating col-12 my-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Special Request</label>
+              </div>
+            </div>
+            <div class="pt-3">
+              <button type="button" class="btn btn-orange rounded-0 text-uppercase text-white py-sm-3 px-sm-5 btn-lg btn-block w-100">Block Now</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Team Members -->
+    <section class="container py-5" id="TeamMembers">
+      <div class="text-center">
+        <h4 class="psudo-after psudo-before mb-0 g-font text-orange">Team Members</h4>
+        <h1 class="nunito-font fw-bold">Our Master Chefs</h1>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 mt-5">
+        <div class="col">
+          <div class="card border-0 px-4 shadow">
+            <div class="chef-item pt-3 overflow-hidden">
+              <div class="rounded-circle overflow-hidden text-center">
+                <img class="img-fluid" src="./assits/images/team-1.jpg" alt="...">
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">Full Name</h5>
+                <p class="card-text">Designation</p>
+              </div>
+              <div class="text-center pt-2 d-flex justify-content-center">
+                <a class=" bg-orange p-2 rounded-top-5 me-2" href="">
+                  <i class="fa-brands fa-facebook-f fs-5 text-white"></i>
+                </a>
+                <a class=" bg-orange p-2 rounded-top-5 me-2" href="">
+                <i class="fa-brands fa-twitter text-white"></i>
+                </a>
+                <a class=" bg-orange p-2 rounded-top-5 me-2" href="">
+                <i class="fa-brands fa-instagram fs-5 text-white"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 px-4 shadow">
+            <div class="chef-item pt-3 overflow-hidden">
+              <div class="rounded-circle overflow-hidden text-center">
+                <img class="img-fluid" src="./assits/images/team-2.jpg"alt="...">
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">Full Name</h5>
+                <p class="card-text">Designation</p>
+              </div>
+              <div class="text-center pt-2 d-flex justify-content-center">
+                <a class=" bg-orange p-2 rounded-top-5  me-2" href="">
+                  <i class="fa-brands fa-facebook-f fs-5 text-white"></i>
+                </a>
+                <a class=" bg-orange p-2 rounded-top-5  me-2" href="">
+                <i class="fa-brands fa-twitter fs-6 text-white"></i>
+                </a>
+                <a class=" bg-orange p-2 rounded-top-5  me-2" href="">
+                <i class="fa-brands fa-instagram fs-5 text-white"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 px-4 shadow">
+            <div class="chef-item pt-3 overflow-hidden">
+              <div class="rounded-circle overflow-hidden text-center">
+                <img class="img-fluid" src="./assits/images/team-3.jpg" alt="...">
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">Full Name</h5>
+                <p class="card-text">Designation</p>
+              </div>
+              <div class="text-center pt-2 d-flex justify-content-center">
+                <a class=" bg-orange p-2 rounded-top-5 me-2" href="">
+                  <i class="fa-brands fa-facebook-f fs-5 text-white"></i>
+                </a>
+                <a class=" bg-orange p-2 rounded-top-5 me-2" href="">
+                <i class="fa-brands fa-twitter fs-6 text-white"></i>
+                </a>
+                <a class=" bg-orange p-2 rounded-top-5 me-2" href="">
+                <i class="fa-brands fa-instagram fs-5 text-white"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 px-4 shadow">
+            <div class="chef-item pt-3 overflow-hidden">
+              <div class="rounded-circle overflow-hidden text-center">
+                <img class="img-fluid" src="./assits/images/team-4.jpg" alt="...">
+              </div>
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold">Full Name</h5>
+                <p class="card-text">Designation</p>
+              </div>
+              <div class="text-center pt-2 d-flex justify-content-center">
+                <a class=" bg-orange p-2 rounded-top-5 me-2" href="">
+                  <i class="fa-brands fa-facebook-f fs-5 text-white"></i>
+                </a>
+                <a class=" bg-orange p-2 rounded-top-5 me-2" href="">
+                <i class="fa-brands fa-twitter fs-6 text-white"></i>
+                </a>
+                <a class=" bg-orange p-2 rounded-top-5 me-2" href="">
+                <i class="fa-brands fa-instagram fs-5 text-white"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial -->
+    <section class="container py-5" id="testimoneal">
+      <div class="text-center my-5">
+        <h4 class="psudo-after psudo-before g-font text-orange">Testimonial</h4>
+        <h1 class="nunito-font fw-bold">Our Clients Say!!!</h1>
+      </div>
+      <div class="owl-carousel">
+         <div>
+          <div class="">
+            <div class="card p-4">
+              <i class="fa-solid fa-quote-left fa-3x mb-2"></i>
+              <div class="pb-3">
+                <p class="card-text">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+              </div>
+              <div class="d-flex align-items-center">
+                <img class="img-fluid rounded-circle" src="./assits/images/testimonial-1.jpg" alt="">
+                <div class="ps-3">
+                  <h5 class="fw-bold mb-1">Client Name</h5>
+                  <p>profession</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="">
+            <div class="card p-4">
+              <i class="fa-solid fa-quote-left fa-3x mb-2"></i>
+              <div class="pb-3">
+                <p class="card-text">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+              </div>
+              <div class="d-flex align-items-center">
+                <img class="img-fluid rounded-circle" src="./assits/images/testimonial-2.jpg" alt="">
+                <div class="ps-3">
+                  <h5 class="fw-bold mb-1">Client Name</h5>
+                  <p>profession</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="">
+            <div class="">
+              <div class="card p-4">
+                <i class="fa-solid fa-quote-left  fa-3x mb-2"></i>
+                <div class="pb-3">
+                  <p class="card-text">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                </div>
+                <div class="d-flex align-items-center">
+                  <img class="img-fluid rounded-circle" src="./assits/images/testimonial-3.jpg" alt="">
+                  <div class="ps-3">
+                    <h5 class="fw-bold mb-1">Client Name</h5>
+                    <p>profession</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="">
+            <div class="">
+              <div class="card p-4">
+                <i class="fa-solid fa-quote-left fa-3x mb-2"></i>
+                <div class="pb-3">
+                  <p class="card-text">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                </div>
+                <div class="d-flex align-items-center">
+                  <img class="img-fluid rounded-circle" src="./assits/images/testimonial-4.jpg" alt="">
+                  <div class="ps-3">
+                    <h5 class="fw-bold mb-1">Client Name</h5>
+                    <p>profession</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- footer -->
+  <footer id="company">
+    <section class="mt-5 container mx-auto">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 border-bottom py-5">
+        <div class="col company-about">
+          <h3 class="psudo-after g-font text-orange mb-3">Company</h3>
+          <a class="btn btn-link text-white ps-2" href="">About us</a>
+          <a class="btn btn-link text-white ps-2" href="">contact us</a>
+          <a class="btn btn-link text-white ps-2" href="">reservation</a>
+          <a class="btn btn-link text-white ps-2" href="">privacy policy</a>
+          <a class="btn btn-link text-white ps-2" href="">term & condition</a>
+        </div>
+        <div class="col text-white">
+          <h3 class="g-font text-orange mb-4 psudo-after">Contact</h3>
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            123 Street, New York, USA
+          </p>
+          <p>
+            <i class="fa-solid fa-phone"></i>
+            +012 345 67890
+          </p>
+          <p>
+            <i class="fa-solid fa-envelope"></i>
+            info@example.com
+          </p>
+          <div>
+            <a class="social-icons" href="">
+              <i class="fa-brands fa-1x fa-twitter border rounded-circle p-2"></i>
+            </a>
+            <a class="social-icons" href="">
+              <i class="fa-brands fa-facebook border rounded-circle p-2"></i>
+            </a>
+            <a class="social-icons" href=""><i class="fa-brands fa-youtube  border rounded-circle p-2"></i></a>
+            <a class="social-icons" href=""><i class="fa-brands fa-linkedin-in border rounded-circle p-2"></i></a>
+          </div>
+        </div>
+        <div class="col">
+          <h3 class="psudo-after g-font text-orange mb-4">Opening</h3>
+          <h5 class="text-white">Monday - Saturday</h5>
+          <p class="text-white">09AM - 09PM</p>
+          <h5 class="text-white">Sunday</h5>
+          <p class="text-white">10AM - 08PM</p>
+        </div>
+        <div class="col">
+          <h3 class="psudo-after g-font text-orange mb-4">Newsletter</h3>
+          <p class="text-white">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+          <div class="position-relative mb-3">
+            <input type="text" class="form-control py-3 border-orange" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="">
+            <button class="btn btn-orange rounded-0 text-uppercase text-white py-2 position-absolute top-0 end-0 my-2 me-2">SIGN UP</button>
+          </div>
+        </div>
+      </div>
+      <div class="row row-cols-2 justify-content-between py-4">
+        <div class="col text-white">
+          @
+          <a class="border-bottom text-white" href="">Your Site Nme</a>
+          , All Right Reserved.Designed By
+          <a class="border-bottom text-white" href="">HTML Codex</a> <br>
+          Distributed By
+          <a class="border-bottom text-white" href="https://htmlcodex.com">ThemeWaon</a>
+        </div>
+        <div class="col text-md-end text-center">
+          <a class="border-end ps-2 pe-2 text-white" href="">Home</a>
+          <a class="border-end ps-2 pe-2 text-white" href="">Cookies</a>
+          <a class="border-end ps-2 pe-2 text-white" href="">Help</a>
+          <a class="text-white ps-2"  href="">FQAs</a>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <!--bootstarp js link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <!-- wow js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- font aowsome -->
+  <script src="https://kit.fontawesome.com/8e2b1c2c7c.js" crossorigin="anonymous"></script>
+   <!-- counter up js -->
+   <script src="./assits/waypoints/waypoints.min.js"></script>
+   <script src="./assits/counterup/counterup.min.js"></script>
+     <script>
+       jQuery(document).ready(function($) {
+             $('.counter').counterUp({
+              delay:10,
+              time:2000
+             });
+         });
+     </script>
+     <!-- owlcarousel -->
+     <script src="./assits/owlcarousel/owl.carousel.min.js"></script>
+     <script>
+      $('.owl-carousel').owlCarousel({
+          center: true,
+          autoplay:true,
+          loop:true,
+          margin:30,
+          responsive:{
+            0:{
+              items: 1
+            },
+            577:{
+              items:2
+            },
+            1200:{
+              items:3
+            },
+              
+              
+          }
+      });
+     </script>
+</body>
+</html>
