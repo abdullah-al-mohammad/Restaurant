@@ -67,9 +67,6 @@ body{
     background: linear-gradient( rgba(15, 23, 43, 0.9) 100%, rgba(15, 23, 43, 0.9)100%)
 }
 /* hero section */
-#hero .dish{
-    width: 90%;
-}
 #hero{
     background: linear-gradient( rgba(15, 23, 43, 0.9) 100%, rgba(15, 23, 43, 0.9)100%), url('../Images/bg-hero.jpg');
     background-position: center;
