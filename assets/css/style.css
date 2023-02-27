@@ -68,7 +68,7 @@ body{
 }
 /* hero section */
 #hero{
-    background: linear-gradient( rgba(15, 23, 43, 0.9) 100%, rgba(15, 23, 43, 0.9)100%), url('../Images/bg-hero.jpg');
+    background: linear-gradient( rgba(15, 23, 43, 0.9) 100%, rgba(15, 23, 43, 0.9)100%), url('../images/bg-hero.jpg');
     background-position: center;
     background-size: cover;
 }
