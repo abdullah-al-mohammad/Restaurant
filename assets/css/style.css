@@ -127,9 +127,24 @@ body{
     text-align: center;
 }
 #vBtn::before{
-    content: '';
+    content: 'wow';
     width: 90px;
     height: 90px;
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: none;
+    background: #FEA116;
+    animation: pulse 1800ms ease-out infinite;
+    -webkit-animation: pulse 1800ms ease-out infinite;
+}
+#vBtn::after{
+    content: 'wow';
+    width: 100px;
+    height: 100px;
     position: absolute;
     z-index: 0;
     left: 50%;
@@ -146,9 +161,13 @@ body{
     transform: translate(-50%, -50%) scale(1);
     opacity: 0;
 }
-100%{
+50%{
     transform: translate(-50%, -50%) scale(1.5);
     opacity: .5;
+}
+100%{
+    transform: translate(-50%, -50%) scale(2);
+    opacity: 0;
 }
 }
 /* team mambers */
