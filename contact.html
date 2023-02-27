@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Restaurant</title>
    <!-- animation wow -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
    <!-- bootstarp link -->
@@ -14,10 +14,10 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg px-5 pb-5 position-ab w-100 linear-color bg-transparent bg-opacity-10 z-2 animate__animated animate__fadeIn">
+    <nav class="navbar navbar-expand-lg px-5 pb-5 position-absolte w-100 linear-color bg-transparent bg-opacity-10 z-2 animate__animated animate__fadeIn">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <h1 class="text-warning fw-bolder">
+          <h1 class="text-orange fw-bold">
             <i class="fa-solid fa-utensils"></i>
             Restaurant
           </h1>
@@ -27,33 +27,33 @@
           </button>
           <div class="collapse navbar-collapse flex-grow-0" id="navbarNavDropdown">
             <ul class="navbar-nav text-uppercase">
-              <li class="nav-item">
+              <li class="nav-item fw-bold fw-bold">
                 <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="About.html">About</a>
+                <a class="nav-link text-white fw-bold" href="About.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="service.html">Service</a>
+                <a class="nav-link text-white fw-bold" href="service.html">Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="menu.html">menu</a>
+                <a class="nav-link text-white fw-bold" href="menu.html">menu</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle text-white fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   pages
                 </a>
-                <ul class="dropdown-menu text-capitalize">
-                  <li><a class="dropdown-item" href="#">booking</a></li>
-                  <li><a class="dropdown-item" href="#">our team</a></li>
-                  <li><a class="dropdown-item" href="#">testimonial</a></li>
+                <ul class="dropdown-menu text-capitalize fw-bold">
+                  <li><a class="dropdown-item" href="booking.html">booking</a></li>
+                  <li><a class="dropdown-item" href="team.html">our team</a></li>
+                  <li><a class="dropdown-item" href="testimonial.html">testimonial</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">contact</a>
+                <a class="nav-link text-white fw-bold" href="contact.html">contact</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link btn btn-warning text-uppercase text-white" href="#">book a table</a>
+              <li class="nav-item ps-2">
+                <a class="nav-link btn btn-orange rounded-0 text-uppercase text-white" href="#">book a table</a>
               </li>
             </ul>
           </div>
@@ -64,13 +64,13 @@
    <!-- Hero Section -->
    <section class="py-5" id="hero">
     <div class="container py-5 my-5 text-center">
-      <h1 class="text-white fs-1">Testimonial</h1>
+      <h1 class="text-white display-1 fw-bold">Contact Us</h1>
       <a class="custom-color me-2" href="">Home</a>
       <a class="custom-color me-2" href="">Pages</a>
       <a class="text-white ms-2" href="">About</a>
   </div>
   </section>
-  <section class="container py-5">
+  <section class="container py-5 h-50">
     <h4 class="text-center g-font">Contact Us</h4>
     <h1 class="text-center">Contact For Any Query</h1>
     <div class="row text-center pt-5">
@@ -97,10 +97,10 @@
       </div>
     </div>
   </section>
-  <section>
+  <section class="container">
     <div class="row">
       <div class="col">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29189.4220766549!2d89.98673114833453!3d23.86557385646753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755f603f1698647%3A0x894c2f1900643eb6!2sManikganj!5e0!3m2!1sen!2sbd!4v1677322671919!5m2!1sen!2sbd" width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29189.4220766549!2d89.98673114833453!3d23.86557385646753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755f603f1698647%3A0x894c2f1900643eb6!2sManikganj!5e0!3m2!1sen!2sbd!4v1677322671919!5m2!1sen!2sbd" width="800" height="430" style="border:0;" allowfullscreen="" loading="lazy"  referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="col">
         <div class="row">
@@ -118,7 +118,7 @@
           <label for="floatingInput">Subject</label>
         </div>
         <div class="form-floating">
-          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 200px"></textarea>
           <label for="floatingTextarea2">Comments</label>
         </div>
         <div class="pt-3">
@@ -128,19 +128,20 @@
     </div>
   </section>
 </main>
-<footer>
-  <section class="container mt-5" id="company">
-    <div class="row row-cols-4 border-bottom py-5">
+<!-- footer -->
+<footer id="company">
+  <section class="mt-5 container mx-auto">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 border-bottom py-5">
       <div class="col company-about">
-        <h3 class="g-font">Company</h3>
-        <a class="btn btn-link text-white" href="">About us</a>
-        <a class="btn btn-link text-white" href="">contact us</a>
-        <a class="btn btn-link text-white" href="">reservation</a>
-        <a class="btn btn-link text-white" href="">privacy policy</a>
-        <a class="btn btn-link text-white" href="">term & condition</a>
+        <h3 class="psudo-after g-font text-orange mb-3">Company</h3>
+        <a class="btn btn-link text-white ps-2" href="">About us</a>
+        <a class="btn btn-link text-white ps-2" href="">contact us</a>
+        <a class="btn btn-link text-white ps-2" href="">reservation</a>
+        <a class="btn btn-link text-white ps-2" href="">privacy policy</a>
+        <a class="btn btn-link text-white ps-2" href="">term & condition</a>
       </div>
       <div class="col text-white">
-        <h3 class="g-font mb-4">Contact</h3>
+        <h3 class="g-font text-orange mb-4 psudo-after">Contact</h3>
         <p>
           <i class="fa-solid fa-location-dot"></i>
           123 Street, New York, USA
@@ -165,18 +166,18 @@
         </div>
       </div>
       <div class="col">
-        <h3 class="g-font mb-4">Opening</h3>
+        <h3 class="psudo-after g-font text-orange mb-4">Opening</h3>
         <h5 class="text-white">Monday - Saturday</h5>
         <p class="text-white">09AM - 09PM</p>
         <h5 class="text-white">Sunday</h5>
         <p class="text-white">10AM - 08PM</p>
       </div>
       <div class="col">
-        <h3 class="g-font mb-4">Newsletter</h3>
+        <h3 class="psudo-after g-font text-orange mb-4">Newsletter</h3>
         <p class="text-white">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
         <div class="position-relative mb-3">
-          <input type="text" class="form-control py-3 border-warning" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="">
-          <button class="btn btn-warning rounded-0 text-uppercase text-white py-2 position-absolute top-0 end-0 my-2 me-2">SIGN UP</button>
+          <input type="text" class="form-control py-3 border-orange" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="">
+          <button class="btn btn-orange rounded-0 text-uppercase text-white py-2 position-absolute top-0 end-0 my-2 me-2">SIGN UP</button>
         </div>
       </div>
     </div>
