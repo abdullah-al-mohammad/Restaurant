@@ -252,7 +252,10 @@ body{
     color: #FEA116;
     background-color: white;
 }
-
+/* contact page */
+.breadcrumb-item+.breadcrumb-item::before{
+    color: rgba(255, 255, 255, .5);
+}
 
 /*  Media Queries */
 
