@@ -124,7 +124,7 @@ body{
     text-align: center;
 }
 #vBtn::before{
-    content: 'wow';
+    content: '';
     width: 90px;
     height: 90px;
     position: absolute;
@@ -139,7 +139,7 @@ body{
     -webkit-animation: pulse 1800ms ease-out infinite;
 }
 #vBtn::after{
-    content: 'wow';
+    content: '';
     width: 100px;
     height: 100px;
     position: absolute;
